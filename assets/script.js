@@ -7,3 +7,15 @@ var time14 = parseInt($("#14").attr("data-value"));
 var time15 = parseInt($("#15").attr("data-value"));
 var time16 = parseInt($("#16").attr("data-value"));
 var time17 = parseInt($("#17").attr("data-value"));
+
+$(".saveBtn").on("click", function () {
+    localStorage.setItem("time9", $("#input9").val());
+    localStorage.setItem("time10", $("#input10").val());
+    localStorage.setItem("time11", $("#input11").val());
+    localStorage.setItem("time12", $("#input12").val());
+    localStorage.setItem("time13", $("#input13").val());
+    localStorage.setItem("time14", $("#input14").val());
+    localStorage.setItem("time15", $("#input15").val());
+    localStorage.setItem("time16", $("#input16").val());
+    localStorage.setItem("time17", $("#input17").val());
+  });
